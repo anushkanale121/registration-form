@@ -1,0 +1,100 @@
+css
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    width: 100%;
+    max-width: 450px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 11px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+.gender {
+    margin-bottom: 15px;
+}
+
+.gender input {
+    width: auto;
+    margin-right: 5px;
+}
+
+.gender label {
+    display: inline;
+    font-weight: normal;
+    margin-right: 15px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    width: 50%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit {
+    background: #667eea;
+}
+
+.reset {
+    background: #e74c3c;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+#message {
+    text-align: center;
+    color: green;
+    margin-top: 15px;
+    font-weight: bold;
+}
